@@ -62,20 +62,21 @@ var array = []
 var array = ['Hans Mattin-Lassei', 'Tommy Mattin-Lassei']
 var array = [36, 38]
 var array = ['Hans Mattin-Lassei', 36, 'Tommy Mattin-Lassei', 38]
+
 var array = [
-    { name: 'Hans Mattin-Lassei', age: 36},
-    { name: 'Tommy Mattin-Lassei', age: 38}
+    { firstName: 'Hans', lastName: 'Mattin-Lassei', age: 36},
+    { firstName: 'Tommy', lastName: 'Mattin-Lassei', age: 38}
 ]
 // console.log(array)
 
 // Lägg till något i arrayen (push = lägg till i slutet, unshift = lägg till i början )
-array.push({ name: 'Joakim Wahlström', age: 33})
+array.push({ firstName: 'Joakim', lastName: 'Wahlström', age: 33})
 // console.log(array)
 
-array.unshift({ name: 'Haithem Smirani', age: 35})
+array.unshift({ firstName: 'Haithem', lastName: 'Smirani', age: 35})
 // console.log(array)
 
-array.splice(2, 0, { name: 'Anki Mattin-Lassei', age: 42})
+array.splice(2, 0, { firstName: 'Anki', lastName: 'Mattin-Lassei', age: 42})
 // console.log(array)
 
 
@@ -94,7 +95,7 @@ array.splice(2, 0, { name: 'Anki Mattin-Lassei', age: 42})
 
 // var array = ['Haithem','Anki','Hans','Tommy','Joakim']
 
-// Sortera i bokstavs/siffer-ordning (A-Z, 0-9)
+// Sortera i bokstavs/siffer-ordning (0-9 A-Z)
 // array.sort()
 // console.log(array)
 
@@ -112,3 +113,29 @@ array.splice(2, 0, { name: 'Anki Mattin-Lassei', age: 42})
 // delete array[index]
 // array.splice(index, 1)
 // console.log(array)
+
+// Filtrera information baserat på ett värde
+// let selected = array.filter(person => {
+//     return person.lastName == "Mattin-Lassei"
+// })
+// console.log(selected)
+
+// Skapa en ny array med utvalda värden från en befintlig array
+// let selected = array.map(person => {
+//     return person.firstName
+// })
+// console.log(selected)
+
+// let selected = array
+// .filter(person => person.lastName == "Mattin-Lassei")
+// .map(person => person.firstName)
+// .sort()
+// console.log(selected)
+
+// Lista upp allt från en array och kan ev. göra nått med det hela
+// array
+// .forEach(person => {
+//     const {firstName, lastName} = person
+//     console.log(`Name: ${firstName} ${lastName}`)
+// })
+
