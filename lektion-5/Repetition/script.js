@@ -89,7 +89,7 @@
 
     var people = [
         new Person('Hans','Mattin-Lassei',36,['blond','kort'], new Address('Havsörnsgränd 2', '123 49', 'Farsta')),
-        new Person('Tommy','Mattin-Lassei',38,['brun','kort'], new Address('Österled 13','73230','Arboga'),
+        new Person('Tommy','Mattin-Lassei',38,['brun','kort'], new Address('Österled 13','73230','Arboga')),
         new Person()
     ]
 
