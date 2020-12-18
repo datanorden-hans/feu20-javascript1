@@ -1,3 +1,6 @@
 #loginForm {
   margin-top: 3rem;
 }
+.focus {
+  outline: 3px solid teal;
+}
