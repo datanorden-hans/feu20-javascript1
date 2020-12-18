@@ -24,5 +24,3 @@ class Product {
 
 const p1 = new Product('product 1', 'this is product 1', 100, true)
 
-
-
