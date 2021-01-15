@@ -54,7 +54,8 @@ inputs.forEach(input => {
 regForm.addEventListener('submit', function(e) {
   e.preventDefault();
 
-  // console.log(e.currentTarget[1].id);
+  // console.log(e.currentTarget[1]);
+  // console.log(e.target[1]);
 
   // validate('#firstName');
   // validate('#lastName');
