@@ -1,0 +1,25 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  box-shadow: 5px 5px 10px 0 #333;
+  margin: 1.5rem 0;
+
+}
+.todo:hover {
+  box-shadow: 5px 5px 10px 2px #333;
+}
+.todo:active {
+  box-shadow: 5px 5px 6px 0 #333;
+}
+.completed h3{
+  text-decoration: line-through;
+  color: #8d8d8d;
+}
+.todo h3 {
+  flex: 1;
+  cursor: pointer;
+}
