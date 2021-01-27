@@ -110,6 +110,9 @@ array.splice(2, 0, { firstName: 'Anki', lastName: 'Mattin-Lassei', age: 42})
 // hämta en specifik plats/index för ett visst värde 
 // let index = array.indexOf('Hans')
 
+// array.find
+//array.findIndex
+
 // delete array[index]
 // array.splice(index, 1)
 // console.log(array)
